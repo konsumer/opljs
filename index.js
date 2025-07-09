@@ -4,7 +4,7 @@
  * This is basically a wrapper around the Emscripten-produced module to make it
  * a little more JS-like.
  *
- * Copyright (C) 2025 David Konsumer <konsumer@jetboystudio.com>
+ * Copyright (C) 2018 Adam Nielsen <malvineous@shikadi.net>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -154,7 +154,7 @@ export default class OPL
 	 * @param {Boolean} wlf
 	 *   Trigger wlf file-mode (a bit faster)
 	 */
-	async wave(bytes, wlf=false) {
+	wave(bytes, wlf=false) {
 	  const imf = new Uint8Array(bytes)
 	  const tempoInHz = wlf ? 700 : 560
 	  const samplesPerTick = Math.round(this.sampleRate / tempoInHz)

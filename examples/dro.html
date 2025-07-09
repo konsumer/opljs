@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>opl.js Example</title>
+    <style>
+      button { color: black; background-color: #ccc; }
+      .mute { background-color: #ffcccc; }
+      .play { background-color: #ccffcc; }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "@konsumer/opl": "./opl3/index.js",
+          "@konsumer/opl/convertDroToImf.js": "./opl3/convertDroToImf.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+  <p>
+      This example shows using a DRO file:<br/>
+      <audio controls loop src="" id="aud"></audio>
+  </p>
+    <script type="module">
+      import OPL from '@konsumer/opl'
+      import convertDroToImf from '@konsumer/opl/convertDroToImf.js'
+
+      const aud = document.getElementById('aud')
+      const opl = await OPL.create()
+      const bytes = await opl.wave(convertDroToImf(new Uint8Array(await fetch('ff7.dro').then(r => r.arrayBuffer()))))
+
+      // set audio src to wav file
+      aud.src=URL.createObjectURL(new Blob([bytes], { 'type' : 'audio/wav; codecs=0' }))
+    </script>
+  </body>
+</html>

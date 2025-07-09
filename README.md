@@ -70,7 +70,7 @@ save the generated audio to a .wav file instead.
 these formats, but you'll need to convert the signed 16-bit samples into these
 formats yourself.  The WebAudio sample code shows conversion to floating point.
 
-No compression is directly supported (DRO, etc) but you can use a decompression library like [pako](https://github.com/nodeca/pako).
+No compression or other dreivitive formats are directly supported (DRO, VMF, etc) but you can use a decompression library like [pako](https://github.com/nodeca/pako). I made an example that plays DRO files in [dro.html](examples/dro.html).
 
 ## Contributing
 
