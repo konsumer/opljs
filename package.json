@@ -37,7 +37,6 @@
   ],
   "dependencies": {},
   "exports": {
-    ".": "./index.js",
-    "./dro": "./dro.js"
+    ".": "./index.js"
   }
 }

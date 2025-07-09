@@ -58,8 +58,7 @@ console.log(bytes)
 You can also convert DRO files:
 
 ```js
-import OPL from '@konsumer/opl';
-import convertDroToImf from '@konsumer/opl/dro';
+import OPL, { convertDroToImf } from '@konsumer/opl'
 
 const opl = await OPL.create()
 const imfBytes = convertDroToImf(new Uint8Array(await fetch('ff7.dro').then(r => r.arrayBuffer())))

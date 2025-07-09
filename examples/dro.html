@@ -21,8 +21,7 @@
       <audio controls loop src="" id="aud"></audio>
   </p>
     <script type="module">
-      import OPL from '@konsumer/opl'
-      import convertDroToImf from '@konsumer/opl/dro'
+      import OPL, { convertDroToImf } from '@konsumer/opl'
 
       const aud = document.getElementById('aud')
       const opl = await OPL.create()

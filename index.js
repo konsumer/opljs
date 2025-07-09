@@ -22,6 +22,8 @@
 
 import Loader from './lib/opl3-wasm.mjs'
 
+export {default as convertDroToImf} from './dro.js'
+
 // 16-bit samples take up two bytes each.
 const SIZEOF_INT16 = 2;
 
