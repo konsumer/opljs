@@ -33,7 +33,11 @@
   "devDependencies": {},
   "files": [
     "./lib/opl3-wasm.mjs",
-    "./convertDroToImf.js"
+    "./dro.js"
   ],
-  "dependencies": {}
+  "dependencies": {},
+   "exports": {
+    ".": "./index.js",
+    "./dro": "./dro.js"
+  }
 }

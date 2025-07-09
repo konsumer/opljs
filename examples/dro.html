@@ -10,8 +10,7 @@
     <script type="importmap">
       {
         "imports": {
-          "@konsumer/opl": "https://esm.sh/@konsumer/opl",
-          "@konsumer/opl/convertDroToImf.js": "https://esm.sh/@konsumer/opl/convertDroToImf.js"
+          "@konsumer/opl": "https://esm.sh/@konsumer/opl"
         }
       }
     </script>
@@ -23,7 +22,7 @@
   </p>
     <script type="module">
       import OPL from '@konsumer/opl'
-      import convertDroToImf from '@konsumer/opl/convertDroToImf.js'
+      import convertDroToImf from '@konsumer/opl/dro'
 
       const aud = document.getElementById('aud')
       const opl = await OPL.create()

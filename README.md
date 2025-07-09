@@ -59,7 +59,7 @@ You can also convert DRO files:
 
 ```js
 import OPL from '@konsumer/opl';
-import convertDroToImf from '@konsumer/opl/convertDroToImf.js';
+import convertDroToImf from '@konsumer/opl/dro';
 
 const opl = await OPL.create()
 const imfBytes = convertDroToImf(new Uint8Array(await fetch('ff7.dro').then(r => r.arrayBuffer())))
