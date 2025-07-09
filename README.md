@@ -1,5 +1,5 @@
 # opl.js
-Javascript wrapper: Copyright 2018 Adam Nielsen <<malvineous@shikadi.net>>  
+Javascript wrapper: Copyright 2018 Adam Nielsen <<konsumer@shikadi.net>>  
 OPL emulator: Copyright 2002-2015 The DOSBox Team  
 
 This is a Javascript wrapper around the OPL3 emulator included in DOSBox.  It
@@ -15,7 +15,7 @@ for the browser (using `<script/>`).
 
 ## Installation
 ```
-npm install @malvineous/opl
+npm install @konsumer/opl
 ```
 
 You can also use it on the web, with a CDN:
@@ -24,19 +24,19 @@ You can also use it on the web, with a CDN:
 <script type="importmap">
   {
     "imports": {
-      "@malvineous/opl": "https://esm.sh/@malvineous/opl"
+      "@konsumer/opl": "https://esm.sh/@konsumer/opl"
     }
   }
 </script>
 <script type="module">
-import OPL from '@malvineous/opl'
+import OPL from '@konsumer/opl'
 </script>
 ```
 
 ## Use
 
 ```js
-import OPL from '@malvineous/opl';
+import OPL from '@konsumer/opl';
 
 OPL.create().then(opl => {
     opl.write(0xBD, 0x20);

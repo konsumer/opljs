@@ -1,6 +1,6 @@
 {
-  "name": "@malvineous/opl",
-  "version": "1.0.0",
+  "name": "@konsumer/opl",
+  "version": "0.0.0",
   "description": "Yamaha OPL2/3 FM synth chip emulator",
   "main": "index.js",
   "type": "module",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Malvineous/opljs.git"
+    "url": "git+https://github.com/konsumer/opljs.git"
   },
   "keywords": [
     "adlib",
@@ -23,14 +23,14 @@
     "sb16"
   ],
   "contributors": [
-    "Adam Nielsen <malvineous@shikadi.net>",
-    "David Konsumer <konsumer@jetboystudio.com>"
+    "David Konsumer <konsumer@jetboystudio.com>",
+    "Adam Nielsen <malvineous@shikadi.net>"
   ],
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/Malvineous/opljs/issues"
+    "url": "https://github.com/konsumer/opljs/issues"
   },
-  "homepage": "https://github.com/Malvineous/opljs#readme",
+  "homepage": "https://github.com/konsumer/opljs#readme",
   "devDependencies": {},
   "files": [
     "./lib/opl3-wasm.mjs"

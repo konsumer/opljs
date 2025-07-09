@@ -5,7 +5,7 @@
  * a small web server hosting this file, as some browsers have difficulty
  * loading WebAssembly files from file:// URLs.
  *
- * Copyright (C) 2018 Adam Nielsen <malvineous@shikadi.net>
+ * Copyright (C) 2018 Adam Nielsen <konsumer@shikadi.net>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
 
 // This shows a more complex loading, so you can mute things, but you can also use .wave() (see demo-node.js)
 
-import OPL from '@malvineous/opl'
+import OPL from '@konsumer/opl'
 
 const AudioContext = window.AudioContext || window.webkitAudioContext;
 let audioCtx;

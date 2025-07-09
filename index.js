@@ -4,7 +4,7 @@
  * This is basically a wrapper around the Emscripten-produced module to make it
  * a little more JS-like.
  *
- * Copyright (C) 2018 Adam Nielsen <malvineous@shikadi.net>
+ * Copyright (C) 2018 Adam Nielsen <konsumer@shikadi.net>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

@@ -4,7 +4,7 @@
  * To keep things simple, this doesn't handle audio playback but rather just
  * the generation of the samples, writing them to a raw PCM .wav file.
  *
- * Copyright (C) 2018 Adam Nielsen <malvineous@shikadi.net>
+ * Copyright (C) 2018 Adam Nielsen <konsumer@shikadi.net>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
