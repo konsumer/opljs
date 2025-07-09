@@ -43,6 +43,32 @@ OPL.create().then(opl => {
 });
 ```
 
+You can create WAV data for use with `<audio>` tag:
+
+```js
+import OPL from '@konsumer/opl';
+
+const opl = await OPL.create()
+const bytes = await opl.wave(new Uint8Array(await fetch('demo.imf').then(r => r.arrayBuffer())))
+
+// wav file here
+console.log(bytes)
+```
+
+You can also convert DRO files:
+
+```js
+import OPL from '@konsumer/opl';
+import convertDroToImf from '@konsumer/opl/convertDroToImf.js';
+
+const opl = await OPL.create()
+const imfBytes = convertDroToImf(new Uint8Array(await fetch('ff7.dro').then(r => r.arrayBuffer())))
+const bytes = await opl.wave(imfBytes)
+
+// wav file here
+console.log(bytes)
+```
+
 
 ## Examples
 
@@ -69,8 +95,6 @@ save the generated audio to a .wav file instead.
 8-bit and floating point audio formats are not supported.  You can still use
 these formats, but you'll need to convert the signed 16-bit samples into these
 formats yourself.  The WebAudio sample code shows conversion to floating point.
-
-No compression or other dreivitive formats are directly supported (DRO, VMF, etc) but you can use a decompression library like [pako](https://github.com/nodeca/pako). I made an example that plays DRO files in [dro.html](examples/dro.html).
 
 ## Contributing
 
