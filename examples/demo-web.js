@@ -5,7 +5,7 @@
  * a small web server hosting this file, as some browsers have difficulty
  * loading WebAssembly files from file:// URLs.
  *
- * Copyright (C) 2018 Adam Nielsen <konsumer@shikadi.net>
+ * Copyright (C) 2025 David Konsumer <konsumer@jetboystudio.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

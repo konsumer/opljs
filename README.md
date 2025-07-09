@@ -1,6 +1,4 @@
 # opl.js
-Javascript wrapper: Copyright 2018 Adam Nielsen <<konsumer@shikadi.net>>  
-OPL emulator: Copyright 2002-2015 The DOSBox Team  
 
 This is a Javascript wrapper around the OPL3 emulator included in DOSBox.  It
 allows OPL-compatible FM synthesis from within Javascript code, running in Node
@@ -85,3 +83,11 @@ npm run build
 ```
 
 This will compile the C++ code in `src/` and put the compiled files into `lib/`.
+
+
+## Copyright
+
+- Current Javascript wrapper: David Konsumer <<konsumer@jetboystudio.com>>
+- Original Javascript wrapper: Copyright 2025 Adam Nielsen <<malvineous@shikadi.net>>
+- OPL emulator: Copyright 2002-2015 The DOSBox Team
+
