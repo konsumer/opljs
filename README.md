@@ -85,6 +85,9 @@ npm run build
 This will compile the C++ code in `src/` and put the compiled files into `lib/`.
 
 
+Now, you can run `npm start` and viisit the [local built version](http://127.0.0.1:8080/local.html).
+
+
 ## Copyright
 
 This project is copyrighted [GPLv3](LICENSE).
