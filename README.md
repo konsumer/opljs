@@ -8,7 +8,7 @@ The emulator is written in C++ and compiled to Javascript WebAssembly with
 Emscripten.  A small wrapper is provided to simplify the interface between the
 C++ code and the Javascript code.
 
-Example code is provided, both for the Node environment (with `require()`) and
+Example code is provided, both for the Node environment (with `import`) and
 for the browser (using `<script/>`).
 
 ## Installation
