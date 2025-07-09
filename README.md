@@ -78,14 +78,22 @@ to install `emscripten` in order to compile the C++ code into Javascript.
 
 Once `emscripten` is installed, run:
 
-```
+```sh
 npm run build
 ```
 
 This will compile the C++ code in `src/` and put the compiled files into `lib/`.
 
 
-Now, you can run `npm start` and viisit the [local built version](http://127.0.0.1:8080/local.html).
+Now, you can run
+
+
+```sh
+npm start
+```
+
+
+and viisit the [local built version](http://127.0.0.1:8080/local.html).
 
 
 ## Copyright
