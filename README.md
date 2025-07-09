@@ -70,6 +70,8 @@ save the generated audio to a .wav file instead.
 these formats, but you'll need to convert the signed 16-bit samples into these
 formats yourself.  The WebAudio sample code shows conversion to floating point.
 
+No compression is directly supported (DRO, etc) but you can use a decompression library like [pako](https://github.com/nodeca/pako).
+
 ## Contributing
 
 When you install the release with `npm` the WebAssembly binary is included.
@@ -93,7 +95,15 @@ npm start
 ```
 
 
-and viisit the [local built version](http://127.0.0.1:8080/local.html).
+and visit the [local built version](http://127.0.0.1:8080/local.html).
+
+## related works
+
+Check out these, as well:
+
+- [doomjs](https://github.com/doomjs/opl3)
+- [opl_plr_js](http://software.kvee.cz/opl_plr_js/)
+- [vgmtools](https://github.com/vgmrips/vgmtools)
 
 
 ## Copyright
