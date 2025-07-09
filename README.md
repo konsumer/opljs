@@ -88,6 +88,6 @@ This will compile the C++ code in `src/` and put the compiled files into `lib/`.
 ## Copyright
 
 - Current Javascript wrapper: David Konsumer <<konsumer@jetboystudio.com>>
-- Original Javascript wrapper: Copyright 2025 Adam Nielsen <<malvineous@shikadi.net>>
+- Original Javascript wrapper: Copyright 2010-2018 Adam Nielsen <<malvineous@shikadi.net>>
 - OPL emulator: Copyright 2002-2015 The DOSBox Team
 
