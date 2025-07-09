@@ -1,6 +1,6 @@
 {
   "name": "@konsumer/opl",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Yamaha OPL2/3 FM synth chip emulator",
   "main": "index.js",
   "type": "module",
@@ -36,7 +36,7 @@
     "./dro.js"
   ],
   "dependencies": {},
-   "exports": {
+  "exports": {
     ".": "./index.js",
     "./dro": "./dro.js"
   }
