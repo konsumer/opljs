@@ -5,14 +5,13 @@ on:
     branches:
       - master
 
-permissions:
-  contents: read
-  pages: write
-  pages: deploy
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      pages: deploy
     steps:
       - uses: actions/checkout@v4
       - name: Upload GitHub Pages artifact
