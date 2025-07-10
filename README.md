@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> I started working on [nuked](https://github.com/konsumer/nuked) and will not be maintaining this.
+
 # opl.js
 
 This is a Javascript wrapper around the OPL3 emulator included in DOSBox.  It
